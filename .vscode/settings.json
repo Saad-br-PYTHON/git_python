@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "MiKTeX pdflatex",
+      "command": "C:\\Users\\saadg\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "MiKTeX pdflatex (no Perl)",
+      "tools": [
+        "MiKTeX pdflatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.outDir": "%DIR%"
+}
